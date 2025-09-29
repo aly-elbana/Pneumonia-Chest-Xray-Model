@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+.venv/
+venv/
+env/
+.env
+.env.*
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Logs / Artifacts
+*.log
+*.tmp
+*.cache/
+*.pth
+*.pt
+*.onnx
+
+# Data & Archives (keep structure, ignore heavy files)
+archive.zip
+chest_xray/**/*.zip
+chest_xray/**/*.7z
+chest_xray/**/*.tar
+chest_xray/**/*.tar.gz
+
+# Images cache
+**/*.webp
+**/*.png
+**/*.jpg
+**/*.jpeg
+
+
+# Track the best model explicitly
+!saved_models_final/best_model_epoch68_acc0.8824_loss0.1624_20250924_053949.pth
