@@ -43,4 +43,4 @@ chest_xray/**/*.tar.gz
 
 
 # Track the best model explicitly
-!saved_models_final/best_model_epoch68_acc0.8824_loss0.1624_20250924_053949.pth
+!saved_models_final/best_model_epoch11_acc0.7059_loss0.4444_20250924_045611.pth
