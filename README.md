@@ -13,6 +13,7 @@ A PyTorch project that classifies chest X‑ray images into three classes: `Bact
 
 - Recommended dataset: Chest X‑Ray Images (Pneumonia).
   - Kaggle: `https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia`
+  - Then Run The Notebook to structure it the same as i did so it's a multi-class
 - After download, place it under `chest_xray/` with the following structure:
 
 ```
